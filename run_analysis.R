@@ -28,7 +28,7 @@ names(labels) = c("activity_#", "activity")
 Xdata <- merge(Xdata, labels,"activity_#")
 Xdata$"activity_#" <- NULL
 
-# Clean up column names
+# Clean up the variable names
 names(Xdata) <- gsub("\\(\\)","",names(Xdata))
 names(Xdata) <- gsub("std","Std",names(Xdata))
 names(Xdata) <- gsub("mean","Mean",names(Xdata))
