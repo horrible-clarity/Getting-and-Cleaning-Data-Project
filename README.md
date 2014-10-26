@@ -17,5 +17,5 @@ Specifically it does the following:
 *Assumes the script is run in a directory containing the Smartphone Data directory "UCI HAR Dataset"*
 
 Upon running the script:
-    source("run_analysis.R") 
+    `source("run_analysis.R")`
 It should produce 2 text files 'clean\_data.txt' and 'summary.txt'. clean\_data.txt is the output of step 4, while summary.txt is the output of step 5.
