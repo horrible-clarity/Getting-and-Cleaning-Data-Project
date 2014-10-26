@@ -48,7 +48,7 @@ Some data is further suffixed with 'X, 'Y' or 'Z' indicating the angle that meas
 * `tBodyGyroJerk`
 
 #### Frequency domain data
-Frequency domain data is is prefixed with the letter 't', all data given have the suffix 'Mean' or 'Std' indicating the data in that column represent the mean (average) or standard deviation of that measurement. 
+Frequency domain data is is prefixed with the letter 'f', all data given have the suffix 'Mean' or 'Std' indicating the data in that column represent the mean (average) or standard deviation of that measurement. 
 
 * `fBodyAccMag`
 * `fBodyBodyAccJerkMag`
